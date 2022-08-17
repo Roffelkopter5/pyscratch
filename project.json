@@ -24,7 +24,7 @@
             "name": "Katze",
             "class": "Katze",
             "file": "skripts/katze.py",
-            "imgs": [
+            "images": [
                 "Katze1",
                 "Katze2"
             ]
