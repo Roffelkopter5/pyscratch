@@ -1,0 +1,355 @@
+2022-08-16 08:40:20,164 - root - INFO: Starting app 'PlanetX'
+2022-08-16 08:40:20,484 - root - INFO: Adding sprite 'Figur' to scene 'First Scene'
+2022-08-16 08:40:20,485 - root - INFO: Setting scene to First Scene
+2022-08-16 08:40:20,486 - root - INFO: Starting mainloop
+2022-08-16 08:40:20,664 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (615, 143)}
+2022-08-16 08:40:20,681 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (514, 143)}
+2022-08-16 08:40:20,699 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (468, 143)}
+2022-08-16 08:40:20,716 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (422, 143)}
+2022-08-16 08:40:20,733 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (371, 143)}
+2022-08-16 08:40:20,748 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (353, 142)}
+2022-08-16 08:40:20,764 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (337, 139)}
+2022-08-16 08:40:21,030 - root - INFO: Dispatching event 'on_mouse_down' with {'button': 1}
+2022-08-16 08:40:21,130 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (336, 139)}
+2022-08-16 08:40:21,245 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (336, 140)}
+2022-08-16 08:40:21,262 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (333, 147)}
+2022-08-16 08:40:21,279 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (330, 154)}
+2022-08-16 08:40:21,296 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (328, 163)}
+2022-08-16 08:40:21,313 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (322, 182)}
+2022-08-16 08:40:21,329 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (320, 190)}
+2022-08-16 08:40:21,347 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (317, 200)}
+2022-08-16 08:40:21,364 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (313, 216)}
+2022-08-16 08:40:21,380 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (312, 225)}
+2022-08-16 08:40:21,396 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (311, 231)}
+2022-08-16 08:40:21,412 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (310, 241)}
+2022-08-16 08:40:21,427 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (310, 244)}
+2022-08-16 08:40:21,443 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (310, 246)}
+2022-08-16 08:40:21,458 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (310, 248)}
+2022-08-16 08:40:21,475 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (310, 249)}
+2022-08-16 08:40:21,491 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (310, 252)}
+2022-08-16 08:40:21,509 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (310, 255)}
+2022-08-16 08:40:21,525 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (310, 256)}
+2022-08-16 08:40:21,657 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (309, 255)}
+2022-08-16 08:40:21,673 - root - INFO: Dispatching event 'on_mouse_down' with {'button': 1}
+2022-08-16 08:40:21,689 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (309, 254)}
+2022-08-16 08:40:21,704 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (309, 253)}
+2022-08-16 08:40:21,770 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (308, 253)}
+2022-08-16 08:40:21,787 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (308, 252)}
+2022-08-16 08:40:21,819 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (307, 252)}
+2022-08-16 08:40:21,820 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (307, 251)}
+2022-08-16 08:40:21,950 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (307, 250)}
+2022-08-16 08:40:21,967 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (307, 247)}
+2022-08-16 08:40:21,983 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (307, 244)}
+2022-08-16 08:40:21,999 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (307, 241)}
+2022-08-16 08:40:22,016 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (307, 233)}
+2022-08-16 08:40:22,031 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (307, 228)}
+2022-08-16 08:40:22,048 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (307, 226)}
+2022-08-16 08:40:22,064 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (309, 221)}
+2022-08-16 08:40:22,081 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (311, 218)}
+2022-08-16 08:40:22,097 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (312, 214)}
+2022-08-16 08:40:22,113 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (315, 210)}
+2022-08-16 08:40:22,130 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (315, 209)}
+2022-08-16 08:40:22,145 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (316, 208)}
+2022-08-16 08:40:22,246 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (317, 208)}
+2022-08-16 08:40:22,347 - root - INFO: Dispatching event 'on_key_down' with {'key': 97}
+2022-08-16 08:40:22,496 - root - INFO: Dispatching event 'on_key_up' with {'key': 97}
+2022-08-16 08:40:22,763 - root - INFO: Dispatching event 'on_key_down' with {'key': 100}
+2022-08-16 08:40:22,764 - root - INFO: Dispatching event 'on_key_down' with {'key': 115}
+2022-08-16 08:40:22,831 - root - INFO: Dispatching event 'on_key_up' with {'key': 115}
+2022-08-16 08:40:22,897 - root - INFO: Dispatching event 'on_key_up' with {'key': 100}
+2022-08-16 08:40:22,980 - root - INFO: Dispatching event 'on_key_down' with {'key': 115}
+2022-08-16 08:40:23,113 - root - INFO: Dispatching event 'on_key_down' with {'key': 97}
+2022-08-16 08:40:23,129 - root - INFO: Dispatching event 'on_key_up' with {'key': 115}
+2022-08-16 08:40:23,198 - root - INFO: Dispatching event 'on_key_down' with {'key': 100}
+2022-08-16 08:40:23,229 - root - INFO: Dispatching event 'on_key_up' with {'key': 97}
+2022-08-16 08:40:23,328 - root - INFO: Dispatching event 'on_key_up' with {'key': 100}
+2022-08-16 08:40:23,380 - root - INFO: Dispatching event 'on_key_down' with {'key': 119}
+2022-08-16 08:40:23,395 - root - INFO: Dispatching event 'on_key_down' with {'key': 97}
+2022-08-16 08:40:23,530 - root - INFO: Dispatching event 'on_key_down' with {'key': 100}
+2022-08-16 08:40:23,532 - root - INFO: Dispatching event 'on_key_up' with {'key': 119}
+2022-08-16 08:40:23,533 - root - INFO: Dispatching event 'on_key_up' with {'key': 97}
+2022-08-16 08:40:23,663 - root - INFO: Dispatching event 'on_key_up' with {'key': 100}
+2022-08-16 08:40:23,664 - root - INFO: Dispatching event 'on_key_down' with {'key': 97}
+2022-08-16 08:40:23,776 - root - INFO: Dispatching event 'on_key_up' with {'key': 97}
+2022-08-16 08:40:23,825 - root - INFO: Dispatching event 'on_key_down' with {'key': 119}
+2022-08-16 08:40:23,972 - root - INFO: Dispatching event 'on_key_up' with {'key': 119}
+2022-08-16 08:40:24,004 - root - INFO: Dispatching event 'on_key_down' with {'key': 101}
+2022-08-16 08:40:24,105 - root - INFO: Dispatching event 'on_key_up' with {'key': 101}
+2022-08-16 08:40:24,416 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (326, 204)}
+2022-08-16 08:40:24,432 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (342, 199)}
+2022-08-16 08:40:24,433 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (355, 196)}
+2022-08-16 08:40:24,449 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (377, 192)}
+2022-08-16 08:40:24,466 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (395, 188)}
+2022-08-16 08:40:24,482 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (424, 183)}
+2022-08-16 08:40:24,499 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (435, 182)}
+2022-08-16 08:40:24,516 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (443, 180)}
+2022-08-16 08:40:24,532 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (451, 178)}
+2022-08-16 08:40:24,549 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (452, 178)}
+2022-08-16 08:40:24,566 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (453, 177)}
+2022-08-16 08:40:24,583 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (456, 173)}
+2022-08-16 08:40:24,599 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (456, 170)}
+2022-08-16 08:40:24,842 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (459, 169)}
+2022-08-16 08:40:24,859 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (462, 166)}
+2022-08-16 08:40:24,875 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (467, 163)}
+2022-08-16 08:40:24,891 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (486, 148)}
+2022-08-16 08:40:24,907 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (499, 139)}
+2022-08-16 08:40:24,923 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (514, 127)}
+2022-08-16 08:40:24,939 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (531, 113)}
+2022-08-16 08:40:24,955 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (537, 107)}
+2022-08-16 08:40:24,971 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (542, 105)}
+2022-08-16 08:40:24,988 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (545, 102)}
+2022-08-16 08:40:25,004 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (545, 101)}
+2022-08-16 08:40:25,053 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (545, 100)}
+2022-08-16 08:40:25,695 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (545, 99)}
+2022-08-16 08:40:27,247 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (547, 97)}
+2022-08-16 08:40:27,263 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (550, 93)}
+2022-08-16 08:40:27,280 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (554, 89)}
+2022-08-16 08:40:27,296 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (567, 72)}
+2022-08-16 08:40:27,313 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (577, 62)}
+2022-08-16 08:40:27,330 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (587, 50)}
+2022-08-16 08:40:27,347 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (603, 33)}
+2022-08-16 08:40:27,363 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (609, 26)}
+2022-08-16 08:40:27,379 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (616, 17)}
+2022-08-16 08:40:27,396 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (627, 2)}
+2022-08-16 08:40:27,414 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': (634, 0)}
+2022-08-16 08:40:30,996 - root - INFO: Dispatching event 'on_game_end' with {}
+2022-08-16 08:40:30,997 - root - INFO: Stopping app 'PlanetX'
+2022-08-16 08:41:36,310 - root - INFO: Starting app 'PlanetX'
+2022-08-16 08:41:36,598 - root - INFO: Adding sprite 'Figur' to scene 'First Scene'
+2022-08-16 08:41:36,598 - root - INFO: Setting scene to First Scene
+2022-08-16 08:41:36,599 - root - INFO: Starting mainloop
+2022-08-16 08:41:39,574 - root - INFO: Stopping app 'PlanetX'
+2022-08-16 08:42:19,062 - root - INFO: Starting app 'PlanetX'
+2022-08-16 08:42:19,402 - root - INFO: Adding sprite 'Figur' to scene 'First Scene'
+2022-08-16 08:42:19,402 - root - INFO: Setting scene to 'First Scene'
+2022-08-16 08:42:19,403 - root - INFO: Starting mainloop
+2022-08-16 08:43:07,676 - root - INFO: Stopping app 'PlanetX'
+2022-08-16 08:46:01,704 - root - INFO: Starting app 'PlanetX'
+2022-08-16 08:46:01,989 - root - INFO: Adding sprite 'Figur' to scene 'First Scene'
+2022-08-16 08:46:01,990 - root - INFO: Setting scene to 'First Scene'
+2022-08-16 08:46:01,990 - root - INFO: Starting mainloop
+2022-08-16 08:46:16,771 - root - INFO: Stopping app 'PlanetX'
+2022-08-16 09:12:33,162 - root - INFO: Starting app 'PlanetX'
+2022-08-16 09:12:33,471 - root - INFO: Adding sprite 'Figur' to scene 'First Scene'
+2022-08-16 09:12:33,472 - root - INFO: Setting scene to 'First Scene'
+2022-08-16 09:12:33,472 - root - INFO: Starting mainloop
+2022-08-16 09:12:55,332 - root - INFO: Stopping app 'PlanetX'
+2022-08-16 09:27:03,343 - root - INFO: Starting app 'PlanetX'
+2022-08-16 09:27:03,738 - root - INFO: Adding sprite 'Figur' to scene 'First Scene'
+2022-08-16 09:27:03,739 - root - INFO: Setting scene to 'First Scene'
+2022-08-16 09:27:03,739 - root - INFO: Starting mainloop
+2022-08-16 09:27:07,805 - root - INFO: Stopping app 'PlanetX'
+2022-08-16 09:27:32,767 - root - INFO: Starting app 'PlanetX'
+2022-08-16 09:27:33,060 - root - INFO: Adding sprite 'Figur' to scene 'First Scene'
+2022-08-16 09:27:33,061 - root - INFO: Setting scene to 'First Scene'
+2022-08-16 09:27:33,061 - root - INFO: Starting mainloop
+2022-08-16 09:27:53,168 - root - INFO: Stopping app 'PlanetX'
+2022-08-16 09:28:43,039 - root - INFO: Starting app 'PlanetX'
+2022-08-16 09:28:43,334 - root - INFO: Adding sprite 'Figur' to scene 'First Scene'
+2022-08-16 09:28:43,334 - root - INFO: Setting scene to 'First Scene'
+2022-08-16 09:28:43,335 - root - INFO: Starting mainloop
+2022-08-16 09:28:50,303 - root - INFO: Stopping app 'PlanetX'
+2022-08-16 10:05:14,924 - root - INFO: Starting app 'PlanetX'
+2022-08-16 10:05:15,302 - root - INFO: Adding sprite 'Figur' to scene 'First Scene'
+2022-08-16 10:05:15,303 - root - INFO: Setting scene to 'First Scene'
+2022-08-16 10:05:15,303 - root - INFO: Starting mainloop
+2022-08-16 10:05:18,979 - root - INFO: Stopping app 'PlanetX'
+2022-08-16 11:50:54,779 - root - INFO: Starting app 'PlanetX'
+2022-08-16 11:50:55,115 - root - INFO: Adding sprite 'Figur' to scene 'First Scene'
+2022-08-16 11:50:55,116 - root - INFO: Setting scene to 'First Scene'
+2022-08-16 11:50:55,116 - root - INFO: Starting mainloop
+2022-08-16 11:51:07,325 - root - INFO: Stopping app 'PlanetX'
+2022-08-16 11:52:00,496 - root - INFO: Starting app 'PlanetX'
+2022-08-16 11:52:00,780 - root - INFO: Adding sprite 'Figur' to scene 'First Scene'
+2022-08-16 11:52:00,781 - root - INFO: Setting scene to 'First Scene'
+2022-08-16 11:52:00,782 - root - INFO: Starting mainloop
+2022-08-16 11:52:07,146 - root - INFO: Stopping app 'PlanetX'
+2022-08-16 11:54:26,894 - root - INFO: Starting app 'PlanetX'
+2022-08-16 11:54:27,174 - root - INFO: Adding sprite 'Figur' to scene 'First Scene'
+2022-08-16 11:54:27,174 - root - INFO: Setting scene to 'First Scene'
+2022-08-16 11:54:27,175 - root - INFO: Starting mainloop
+2022-08-16 11:55:00,888 - root - INFO: Stopping app 'PlanetX'
+2022-08-16 11:55:42,575 - root - INFO: Starting app 'PlanetX'
+2022-08-16 11:55:42,878 - root - INFO: Adding sprite 'Figur' to scene 'First Scene'
+2022-08-16 11:55:42,879 - root - INFO: Setting scene to 'First Scene'
+2022-08-16 11:55:42,880 - root - INFO: Starting mainloop
+2022-08-16 11:55:49,767 - root - INFO: Stopping app 'PlanetX'
+2022-08-16 11:56:00,354 - root - INFO: Starting app 'PlanetX'
+2022-08-16 11:56:00,650 - root - INFO: Adding sprite 'Figur' to scene 'First Scene'
+2022-08-16 11:56:00,651 - root - INFO: Setting scene to 'First Scene'
+2022-08-16 11:56:00,651 - root - INFO: Starting mainloop
+2022-08-16 11:56:10,460 - root - INFO: Stopping app 'PlanetX'
+2022-08-16 16:11:40,122 - root - INFO: Starting app 'PlanetX'
+2022-08-16 16:11:40,485 - root - INFO: Adding sprite 'Figur' to scene 'First Scene'
+2022-08-16 16:11:40,486 - root - INFO: Setting scene to 'First Scene'
+2022-08-16 16:11:40,487 - root - INFO: Starting mainloop
+2022-08-16 16:11:44,077 - root - INFO: Stopping app 'PlanetX'
+2022-08-16 16:15:21,326 - root - INFO: Starting app 'PlanetX'
+2022-08-16 16:15:21,619 - root - INFO: Adding sprite 'Figur' to scene 'First Scene'
+2022-08-16 16:15:21,620 - root - INFO: Setting scene to 'First Scene'
+2022-08-16 16:15:21,621 - root - INFO: Starting mainloop
+2022-08-16 16:15:26,291 - root - INFO: Stopping app 'PlanetX'
+2022-08-16 16:15:58,808 - root - INFO: Starting app 'PlanetX'
+2022-08-16 16:15:59,092 - root - INFO: Adding sprite 'Figur' to scene 'First Scene'
+2022-08-16 16:15:59,093 - root - INFO: Setting scene to 'First Scene'
+2022-08-16 16:15:59,094 - root - INFO: Starting mainloop
+2022-08-16 16:16:08,308 - root - INFO: Stopping app 'PlanetX'
+2022-08-16 16:16:54,133 - root - INFO: Starting app 'PlanetX'
+2022-08-16 16:16:54,423 - root - INFO: Adding sprite 'Figur' to scene 'First Scene'
+2022-08-16 16:16:54,424 - root - INFO: Setting scene to 'First Scene'
+2022-08-16 16:16:54,424 - root - INFO: Starting mainloop
+2022-08-16 16:16:58,996 - root - INFO: Stopping app 'PlanetX'
+2022-08-16 16:17:04,963 - root - INFO: Starting app 'PlanetX'
+2022-08-16 16:17:05,273 - root - INFO: Adding sprite 'Figur' to scene 'First Scene'
+2022-08-16 16:17:05,274 - root - INFO: Setting scene to 'First Scene'
+2022-08-16 16:17:05,274 - root - INFO: Starting mainloop
+2022-08-16 16:17:11,647 - root - INFO: Stopping app 'PlanetX'
+2022-08-16 16:18:52,763 - root - INFO: Starting app 'PlanetX'
+2022-08-16 16:18:53,063 - root - INFO: Adding sprite 'Figur' to scene 'First Scene'
+2022-08-16 16:18:53,064 - root - INFO: Setting scene to 'First Scene'
+2022-08-16 16:18:53,065 - root - INFO: Starting mainloop
+2022-08-16 16:18:58,085 - root - INFO: Stopping app 'PlanetX'
+2022-08-16 16:19:31,178 - root - INFO: Starting app 'PlanetX'
+2022-08-16 16:19:31,472 - root - INFO: Adding sprite 'Figur' to scene 'First Scene'
+2022-08-16 16:19:31,473 - root - INFO: Setting scene to 'First Scene'
+2022-08-16 16:19:31,473 - root - INFO: Starting mainloop
+2022-08-16 16:20:18,204 - root - INFO: Stopping app 'PlanetX'
+2022-08-16 16:20:26,515 - root - INFO: Starting app 'PlanetX'
+2022-08-16 16:20:26,802 - root - INFO: Adding sprite 'Figur' to scene 'First Scene'
+2022-08-16 16:20:26,803 - root - INFO: Setting scene to 'First Scene'
+2022-08-16 16:20:26,804 - root - INFO: Starting mainloop
+2022-08-16 16:20:31,509 - root - INFO: Stopping app 'PlanetX'
+2022-08-17 11:19:56,544 - root - INFO: Starting app 'PlanetX'
+2022-08-17 11:19:56,913 - root - INFO: Adding sprite 'Figur' to scene 'First Scene'
+2022-08-17 11:19:56,914 - root - INFO: Setting scene to 'First Scene'
+2022-08-17 11:19:56,915 - root - INFO: Starting mainloop
+2022-08-17 11:20:01,226 - root - INFO: Stopping app 'PlanetX'
+2022-08-17 11:20:21,227 - root - INFO: Starting app 'PlanetX'
+2022-08-17 11:20:21,542 - root - INFO: Adding sprite 'Figur' to scene 'First Scene'
+2022-08-17 11:20:21,542 - root - INFO: Setting scene to 'First Scene'
+2022-08-17 11:20:21,543 - root - INFO: Starting mainloop
+2022-08-17 11:20:26,281 - root - INFO: Stopping app 'PlanetX'
+2022-08-17 11:45:40,057 - root - INFO: Starting app 'PlanetX'
+2022-08-17 11:45:40,402 - root - INFO: Adding sprite 'Figur' to scene 'First Scene'
+2022-08-17 11:45:40,402 - root - INFO: Setting scene to 'First Scene'
+2022-08-17 11:45:40,403 - root - INFO: Starting mainloop
+2022-08-17 11:45:40,404 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(145, 74)>} to 'First Scene'
+2022-08-17 11:45:40,408 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(126, 72)>} to 'First Scene'
+2022-08-17 11:45:40,807 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(126, 73)>} to 'First Scene'
+2022-08-17 11:45:40,824 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(135, 86)>} to 'First Scene'
+2022-08-17 11:45:40,841 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(145, 96)>} to 'First Scene'
+2022-08-17 11:45:40,858 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(167, 118)>} to 'First Scene'
+2022-08-17 11:45:40,875 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(177, 126)>} to 'First Scene'
+2022-08-17 11:45:40,892 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(185, 132)>} to 'First Scene'
+2022-08-17 11:45:40,909 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(193, 137)>} to 'First Scene'
+2022-08-17 11:45:40,926 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(194, 137)>} to 'First Scene'
+2022-08-17 11:45:40,975 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(194, 135)>} to 'First Scene'
+2022-08-17 11:45:40,992 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(193, 134)>} to 'First Scene'
+2022-08-17 11:45:41,008 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(192, 133)>} to 'First Scene'
+2022-08-17 11:45:41,025 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(192, 132)>} to 'First Scene'
+2022-08-17 11:45:41,041 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(191, 132)>} to 'First Scene'
+2022-08-17 11:45:41,058 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(190, 132)>} to 'First Scene'
+2022-08-17 11:45:41,124 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(190, 133)>} to 'First Scene'
+2022-08-17 11:45:41,141 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(190, 134)>} to 'First Scene'
+2022-08-17 11:45:41,158 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(190, 135)>} to 'First Scene'
+2022-08-17 11:45:41,174 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(189, 135)>} to 'First Scene'
+2022-08-17 11:45:41,191 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(187, 136)>} to 'First Scene'
+2022-08-17 11:45:41,208 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(162, 140)>} to 'First Scene'
+2022-08-17 11:45:41,224 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(136, 145)>} to 'First Scene'
+2022-08-17 11:45:41,241 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(101, 152)>} to 'First Scene'
+2022-08-17 11:45:41,242 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(71, 152)>} to 'First Scene'
+2022-08-17 11:45:41,257 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(35, 149)>} to 'First Scene'
+2022-08-17 11:45:41,274 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(1, 144)>} to 'First Scene'
+2022-08-17 11:45:41,291 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(-48, 130)>} to 'First Scene'
+2022-08-17 11:45:41,308 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(-62, 126)>} to 'First Scene'
+2022-08-17 11:45:41,325 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(-72, 121)>} to 'First Scene'
+2022-08-17 11:45:41,341 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(-76, 119)>} to 'First Scene'
+2022-08-17 11:45:41,541 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(-78, 117)>} to 'First Scene'
+2022-08-17 11:45:41,558 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(-78, 116)>} to 'First Scene'
+2022-08-17 11:45:41,639 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(-65, 122)>} to 'First Scene'
+2022-08-17 11:45:41,657 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(-39, 132)>} to 'First Scene'
+2022-08-17 11:45:41,672 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(4, 146)>} to 'First Scene'
+2022-08-17 11:45:41,689 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(92, 174)>} to 'First Scene'
+2022-08-17 11:45:41,705 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(127, 185)>} to 'First Scene'
+2022-08-17 11:45:41,721 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(152, 194)>} to 'First Scene'
+2022-08-17 11:45:41,738 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(186, 206)>} to 'First Scene'
+2022-08-17 11:45:41,753 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(198, 210)>} to 'First Scene'
+2022-08-17 11:45:42,016 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(201, 211)>} to 'First Scene'
+2022-08-17 11:45:42,031 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(205, 214)>} to 'First Scene'
+2022-08-17 11:45:42,048 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(215, 218)>} to 'First Scene'
+2022-08-17 11:45:42,065 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(221, 220)>} to 'First Scene'
+2022-08-17 11:45:42,081 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(226, 222)>} to 'First Scene'
+2022-08-17 11:45:42,097 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(236, 227)>} to 'First Scene'
+2022-08-17 11:45:42,114 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(242, 228)>} to 'First Scene'
+2022-08-17 11:45:42,130 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(248, 230)>} to 'First Scene'
+2022-08-17 11:45:42,148 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(258, 233)>} to 'First Scene'
+2022-08-17 11:45:42,164 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(263, 234)>} to 'First Scene'
+2022-08-17 11:45:42,180 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(269, 235)>} to 'First Scene'
+2022-08-17 11:45:42,197 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(279, 238)>} to 'First Scene'
+2022-08-17 11:45:42,214 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(282, 240)>} to 'First Scene'
+2022-08-17 11:45:42,230 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(285, 240)>} to 'First Scene'
+2022-08-17 11:45:42,245 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(289, 240)>} to 'First Scene'
+2022-08-17 11:45:42,688 - root - INFO: Stopping app 'PlanetX'
+2022-08-17 11:46:11,860 - root - INFO: Starting app 'PlanetX'
+2022-08-17 11:46:12,176 - root - INFO: Adding sprite 'Figur' to scene 'First Scene'
+2022-08-17 11:46:12,177 - root - INFO: Setting scene to 'First Scene'
+2022-08-17 11:46:12,177 - root - INFO: Starting mainloop
+2022-08-17 11:46:12,179 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(151, 119)>} to 'Figur'
+2022-08-17 11:46:12,181 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(54, 93)>} to 'Figur'
+2022-08-17 11:46:12,503 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(51, 92)>} to 'Figur'
+2022-08-17 11:46:12,520 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(47, 91)>} to 'Figur'
+2022-08-17 11:46:12,535 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(31, 87)>} to 'Figur'
+2022-08-17 11:46:12,551 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(23, 86)>} to 'Figur'
+2022-08-17 11:46:12,568 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(15, 84)>} to 'Figur'
+2022-08-17 11:46:12,583 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(6, 83)>} to 'Figur'
+2022-08-17 11:46:12,601 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(5, 82)>} to 'Figur'
+2022-08-17 11:46:12,618 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(4, 81)>} to 'Figur'
+2022-08-17 11:46:12,635 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(-5, 76)>} to 'Figur'
+2022-08-17 11:46:12,651 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(-11, 68)>} to 'Figur'
+2022-08-17 11:46:12,665 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(-19, 60)>} to 'Figur'
+2022-08-17 11:46:12,683 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(-32, 42)>} to 'Figur'
+2022-08-17 11:46:12,699 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(-35, 36)>} to 'Figur'
+2022-08-17 11:46:12,715 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(-36, 35)>} to 'Figur'
+2022-08-17 11:46:12,730 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(-36, 34)>} to 'Figur'
+2022-08-17 11:46:12,812 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(-37, 34)>} to 'Figur'
+2022-08-17 11:46:12,852 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(-39, 34)>} to 'Figur'
+2022-08-17 11:46:12,860 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(-40, 34)>} to 'Figur'
+2022-08-17 11:46:12,876 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(-41, 34)>} to 'Figur'
+2022-08-17 11:46:12,908 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(-43, 34)>} to 'Figur'
+2022-08-17 11:46:12,942 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(-44, 31)>} to 'Figur'
+2022-08-17 11:46:12,992 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(-44, 30)>} to 'Figur'
+2022-08-17 11:46:13,042 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(-41, 26)>} to 'Figur'
+2022-08-17 11:46:13,058 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(-37, 21)>} to 'Figur'
+2022-08-17 11:46:13,075 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(-32, 17)>} to 'Figur'
+2022-08-17 11:46:13,092 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(-15, 10)>} to 'Figur'
+2022-08-17 11:46:13,108 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(-4, 8)>} to 'Figur'
+2022-08-17 11:46:13,125 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(10, 8)>} to 'Figur'
+2022-08-17 11:46:13,141 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(47, 18)>} to 'Figur'
+2022-08-17 11:46:13,159 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(68, 28)>} to 'Figur'
+2022-08-17 11:46:13,175 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(90, 44)>} to 'Figur'
+2022-08-17 11:46:13,191 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(123, 82)>} to 'Figur'
+2022-08-17 11:46:13,207 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(134, 105)>} to 'Figur'
+2022-08-17 11:46:13,222 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(144, 126)>} to 'Figur'
+2022-08-17 11:46:13,238 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(156, 158)>} to 'Figur'
+2022-08-17 11:46:13,449 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(161, 163)>} to 'Figur'
+2022-08-17 11:46:13,467 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(170, 172)>} to 'Figur'
+2022-08-17 11:46:13,482 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(180, 182)>} to 'Figur'
+2022-08-17 11:46:13,499 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(199, 202)>} to 'Figur'
+2022-08-17 11:46:13,514 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(208, 213)>} to 'Figur'
+2022-08-17 11:46:13,531 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(214, 219)>} to 'Figur'
+2022-08-17 11:46:13,547 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(224, 225)>} to 'Figur'
+2022-08-17 11:46:13,564 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(226, 227)>} to 'Figur'
+2022-08-17 11:46:13,579 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(229, 228)>} to 'Figur'
+2022-08-17 11:46:13,594 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(232, 230)>} to 'Figur'
+2022-08-17 11:46:13,611 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(238, 233)>} to 'Figur'
+2022-08-17 11:46:13,626 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(240, 234)>} to 'Figur'
+2022-08-17 11:46:13,644 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(242, 235)>} to 'Figur'
+2022-08-17 11:46:13,661 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(253, 238)>} to 'Figur'
+2022-08-17 11:46:13,676 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(260, 239)>} to 'Figur'
+2022-08-17 11:46:13,694 - root - INFO: Dispatching event 'on_mouse_motion' with {'pos': <Vector2(267, 240)>} to 'Figur'
+2022-08-17 11:46:14,066 - root - INFO: Stopping app 'PlanetX'
+2022-08-17 12:34:53,512 - root - INFO: Starting app 'PlanetX'
+2022-08-17 12:34:53,857 - root - INFO: Adding sprite 'Figur' to scene 'First Scene'
+2022-08-17 12:34:53,858 - root - INFO: Setting scene to 'First Scene'
+2022-08-17 12:34:53,859 - root - INFO: Starting mainloop
+2022-08-17 12:34:55,208 - root - INFO: Stopping app 'PlanetX'
