@@ -1,7 +1,7 @@
 from pygame import image, Vector2, Surface
 from pyscratch.config import Config
 import os
-from locals import Coord, Image
+from .locals import Coord, Image
 
 def load_image(name: Image) -> Surface:
     if isinstance(name, Surface):

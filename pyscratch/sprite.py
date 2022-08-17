@@ -92,13 +92,13 @@ class Sprite(DirtySprite):
         self.glide_to(self._scene.random_pos(), duration)
 
     def turn(self, amount: float):
-        self.point_in(self._rot + amount)
+        self.rotate_to(self._rot + amount)
     
     def turn_left(self, amount: float):
-        self.point_in(self._rot + amount)
+        self.rotate_to(self._rot + amount)
     
     def turn_right(self, amount: float):
-        self.point_in(self._rot - amount)
+        self.rotate_to(self._rot - amount)
 
     def point_to(self, target: Coord | Sprite):
         if isinstance(target, self.__class__):
@@ -109,9 +109,9 @@ class Sprite(DirtySprite):
         angle = degrees(acos(v.x/v.length()))
         if target.y < self._pos.y:
             angle = 360 - angle
-        self.point_in(angle)
+        self.rotate_to(angle)
 
-    def point_in(self, angle: float):
+    def rotate_to(self, angle: float):
         self._rot = angle % 360
         self._image = transform.rotate(self._org_image, self._rot)
         self._dim = Vector2(self.rect.width, self.rect.height)
