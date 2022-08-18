@@ -6,7 +6,7 @@ if TYPE_CHECKING:
     from .scene import Scene
     from .events import PyScratchEvent
 
-from .utils import load_image, vec2_lerp, convert_to_pg
+from .utils import _to_vec2, load_image, _vec2_lerp, _convert_to_pg, _key_name, _button_name
 from .locals import Image, Coord
 from . import _get_logger
 
@@ -23,7 +23,7 @@ import time
 _log = _get_logger(__name__)
 
 class Sprite(DirtySprite):
-    def __init__(self, image: Image):
+    def __init__(self, image: Image = None):
         super().__init__()
 
         self._pos = Vector2()
@@ -34,14 +34,16 @@ class Sprite(DirtySprite):
         self._scene: Scene = None
         self._name = self.__class__.__name__
 
-        self.set_image(image)
+        if image:
+            self.set_image(image)
+        else:
+            self.set_image(Surface((20, 20)))
         self._dirty = 1
         self._visible = True
         self._layer = 0
 
     # region MOTION
     # TODO: bounce on edge
-    # TODO: Move vector conversion to utils
 
     def change_pos(
         self,
@@ -71,8 +73,8 @@ class Sprite(DirtySprite):
     def go_to(self, target: Coord | Sprite):
         if isinstance(target, self.__class__):
             self._pos = target._pos
-        elif not isinstance(target, Vector2):
-            self._pos = Vector2(target)
+        else:
+            self._pos = _to_vec2(target)
         self._dirty = 1
     
     def go_to_random(self):
@@ -84,7 +86,7 @@ class Sprite(DirtySprite):
         t1 = time.time()
         pos = self._pos.copy()
         while (elapsed := time.time() - t1) <= duration:
-            self.move_to(vec2_lerp(pos, target, elapsed/duration))
+            self.move_to(_vec2_lerp(pos, target, elapsed/duration))
             self._wait_frame()
         self.move_to(target)
     
@@ -104,7 +106,7 @@ class Sprite(DirtySprite):
         if isinstance(target, self.__class__):
             target = target._pos
         else:
-            target = Vector2(target)
+            target = _to_vec2(target)
         v = target - self._pos
         angle = degrees(acos(v.x/v.length()))
         if target.y < self._pos.y:
@@ -190,12 +192,12 @@ class Sprite(DirtySprite):
 
     # region EVENTS
 
-    def on_key_down(self, event: PyScratchEvent):
-        if f := getattr(self, event._name + "_" + pygame.key.name(event.key), False):
+    def on_key(self, event: PyScratchEvent):
+        if f := getattr(self, event._name + "_" + _key_name(event.key), False):
             f()
-
-    def on_key_up(self, event: PyScratchEvent):
-        if f := getattr(self, event._name + "_" + pygame.key.name(event.key), False):
+    
+    def on_mouse(self, event: PyScratchEvent):
+        if f := getattr(self, event._name + "_" + _button_name(event.button), False):
             f()
 
     def broadcast(self, message: str):
@@ -231,7 +233,7 @@ class Sprite(DirtySprite):
         pass
     # endregion
 
-    #region PROPERTIES
+    # region PROPERTIES
 
     @property
     def image(self) -> Surface:
@@ -248,7 +250,7 @@ class Sprite(DirtySprite):
     @property
     def rect(self) -> Rect:
         if self.image:
-            return self._image.get_rect(center=convert_to_pg(self._pos))
+            return self._image.get_rect(center=_convert_to_pg(self._pos))
         else:
             return Rect(0, 0, 0, 0)
 
@@ -297,12 +299,10 @@ class Sprite(DirtySprite):
         return self._name
     # endregion
 
-    # region PRIVATE
-
     def update(self, *args, **kwargs):
         pass
 
     def _wait_frame(self):
         time.sleep(1/self.app.fps)
-    # endregion
+
 
