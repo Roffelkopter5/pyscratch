@@ -36,15 +36,15 @@ class App:
                 self._running = False
                 self._scene.dispatch(PyScratchEvent("on_game_end"))
             elif event.type == pygame.KEYDOWN:
-                self._scene.dispatch(PyScratchEvent("on_key_down", key=event.key))
+                self._scene.dispatch(PyScratchEvent("on_key_down", key=event.key, general="on_key"))
                 self._pressed.add(event.key)
             elif event.type == pygame.KEYUP:
-                self._scene.dispatch(PyScratchEvent("on_key_up", key=event.key))
+                self._scene.dispatch(PyScratchEvent("on_key_up", key=event.key, general="on_key"))
                 self._pressed.remove(event.key)
             elif event.type == pygame.MOUSEBUTTONDOWN:
-                self._scene.dispatch(PyScratchEvent("on_mouse_down", button=event.button))
+                self._scene.dispatch(PyScratchEvent("on_mouse_down", button=event.button, general="on_mouse"))
             elif event.type == pygame.MOUSEBUTTONUP:
-                self._scene.dispatch(PyScratchEvent("on_mouse_up", button=event.button))
+                self._scene.dispatch(PyScratchEvent("on_mouse_up", button=event.button, general="on_mouse"))
 
     def set_scene(self, scene: Scene):
         _log.info(f"Setting scene to '{scene._name}'")
