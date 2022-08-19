@@ -13,6 +13,7 @@ from .utils import _to_vec2
 from pygame.sprite import LayeredDirty
 from pygame.surface import Surface
 from pygame.math import Vector2
+from pygame.rect import Rect
 import threading
 from random import randint
 import os.path
@@ -46,11 +47,12 @@ class Scene(Surface):
         else:
             _log.error(f"Each sprite can only be in on scene")
     
-    def load_sprites(self, *sprite_paths):
-        for sprite_path in sprite_paths:
-            if os.path.isfile(sprite_path) and (parts := os.path.splitext(os.path.split(sprite_path)[1]))[1] == ".py":
-                name = parts[0]
-                self.add_sprite(getattr(importlib.import_module(name), name.capitalize())())
+    def load_sprites(self, sprite_path, count: int = 0):
+        if os.path.isfile(sprite_path) and (parts := os.path.splitext(os.path.split(sprite_path)[1]))[1] == ".py":
+            name = parts[0]
+            sprite = getattr(importlib.import_module(name), name.capitalize())
+            for _ in range(count):
+                self.add_sprite(sprite())
 
 
     def update(self):
@@ -89,3 +91,7 @@ class Scene(Surface):
         self._app = app
         for sprite in self._figures:
             sprite._app = app
+    
+    @property
+    def rect(self) -> Rect:
+        return self.get_rect()

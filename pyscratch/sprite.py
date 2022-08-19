@@ -114,14 +114,26 @@ class Sprite(DirtySprite):
         self.rotate_to(angle)
 
     def rotate_to(self, angle: float):
-        self._rot = angle % 360
-        self._image = transform.rotate(self._org_image, self._rot)
-        self._dim = Vector2(self.rect.width, self.rect.height)
-        self._dirty = 1
+        if self._rot != angle % 360:
+            self._rot = angle % 360
+            self._image = transform.rotate(self._org_image, self._rot)
+            self._dim = Vector2(self.rect.width, self.rect.height)
+            self._dirty = 1
 
-    def on_edge_bounce(self):
-        pass
-
+    def bounce_on_edge(self):
+        if (d := self._scene.rect.left - self.rect.left) > 0:
+            self.rotate_to(180 - self._rot)
+            self._pos.x += d
+        elif (d := self._scene.rect.right - self.rect.right) < 0:
+            self.rotate_to(180 - self._rot)
+            self._pos.x += d
+        
+        if (d := self._scene.rect.top - self.rect.top) > 0:
+            self.rotate_to(-self._rot)
+            self._pos.y -= d
+        elif (d := self._scene.rect.bottom - self.rect.bottom) < 0:
+            self.rotate_to(-self._rot)
+            self._pos.y -= d
     #endregion
 
     # region LOOKS
