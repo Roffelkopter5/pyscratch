@@ -47,7 +47,7 @@ class Scene(Surface):
         else:
             _log.error(f"Each sprite can only be in on scene")
     
-    def load_sprites(self, sprite_path, count: int = 0):
+    def load_sprites(self, sprite_path, count: int = 1):
         if os.path.isfile(sprite_path) and (parts := os.path.splitext(os.path.split(sprite_path)[1]))[1] == ".py":
             name = parts[0]
             sprite = getattr(importlib.import_module(name), name.capitalize())

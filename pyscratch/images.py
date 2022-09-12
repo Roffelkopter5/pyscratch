@@ -12,7 +12,7 @@ class BackgroundColor(Surface):
         super().__init__(size)
         self.fill(color)
 
-class Triangle(Surface):
-    def __init__(self, size: Coord, color):
-        super().__init__(size, pygame.SRCALPHA)
-        pygame.draw.polygon(self, color, ((0, 0), (size[0], size[1]//2), (0, size[1])))
+def Triangle(size: Coord, color):
+    s = Surface(size, pygame.SRCALPHA)
+    pygame.draw.polygon(s, color, ((0, 0), (size[0], size[1]//2), (0, size[1])))
+    return s
