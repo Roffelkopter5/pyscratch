@@ -339,7 +339,7 @@ class Sprite(DirtySprite):
 
     # endregion
 
-    # region
+    # region PRIVATE
 
     def update(self, *args, **kwargs):
         pass
@@ -349,5 +349,4 @@ class Sprite(DirtySprite):
 
     def scale_and_rotate(self):
         pass
-
     # endregion
