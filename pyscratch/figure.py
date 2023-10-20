@@ -32,7 +32,7 @@ import time
 _log = _get_logger(__name__)
 
 
-class Sprite(DirtySprite):
+class Figure(DirtySprite):
     def __init__(self, image: Image = None):
         super().__init__()
 
@@ -79,7 +79,7 @@ class Sprite(DirtySprite):
         self._pos += direction * steplength
         self._dirty = 1
 
-    def go_to(self, target: Coord | Sprite):
+    def go_to(self, target: Coord | Figure):
         if isinstance(target, self.__class__):
             self._pos = target._pos
         else:
@@ -89,7 +89,7 @@ class Sprite(DirtySprite):
     def go_to_random(self):
         self.go_to(self._scene.random_pos())
 
-    def glide_to(self, target: Coord | Sprite, duration: float):
+    def glide_to(self, target: Coord | Figure, duration: float):
         if isinstance(target, __class__):
             target = target._pos
         t1 = time.time()
@@ -113,7 +113,7 @@ class Sprite(DirtySprite):
     def turn_right(self, amount: float):
         self.rotate_to(self._rot - amount)
 
-    def point_to(self, target: Coord | Sprite):
+    def point_to(self, target: Coord | Figure):
         if isinstance(target, self.__class__):
             target = target._pos
         else:
@@ -243,7 +243,7 @@ class Sprite(DirtySprite):
     def broadcast_wait(self, message: str):
         pass
 
-    def clone(self) -> Sprite:
+    def clone(self) -> Figure:
         pass
 
     # endregion
@@ -349,4 +349,5 @@ class Sprite(DirtySprite):
 
     def scale_and_rotate(self):
         pass
+
     # endregion

@@ -3,12 +3,13 @@ from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
     from .app import App
-    from .sprite import Sprite
+    from .figure import Figure
     from .locals import Coord
     from .events import PyScratchEvent
 
 from . import _get_logger
 from .utils import _to_vec2
+from .events import EventHandler
 
 from pygame.sprite import LayeredDirty
 from pygame.surface import Surface
@@ -21,6 +22,7 @@ import importlib
 
 _log = _get_logger(__name__)
 
+
 class Scene(Surface):
     def __init__(self, name: str, size: Coord = None, bg: Surface = None):
         self._name = name
@@ -32,28 +34,32 @@ class Scene(Surface):
             self._size = Vector2(640, 480)
             super().__init__((640, 480))
 
-        self._figures = LayeredDirty()
+        self._figures: LayeredDirty[Figure] = LayeredDirty()
         self._bg = bg
         self._app = None
+        self._event_handler = EventHandler()
 
     def set_bg(self, img: str | Surface):
         pass
 
-    def add_sprite(self, sprite: Sprite):
+    def add_sprite(self, sprite: Figure):
         _log.info(f"Adding sprite '{sprite._name}' to scene '{self._name}'")
         if not sprite._scene:
             self._figures.add(sprite)
             sprite._scene = self
         else:
-            _log.error(f"Each sprite can only be in on scene")
-    
+            _log.error("Each sprite can only be in on scene")
+
     def load_sprites(self, sprite_path, count: int = 1):
-        if os.path.isfile(sprite_path) and (parts := os.path.splitext(os.path.split(sprite_path)[1]))[1] == ".py":
+        if (
+            os.path.isfile(sprite_path)
+            and (parts := os.path.splitext(os.path.split(sprite_path)[1]))[1] == ".py"
+        ):
             name = parts[0]
-            sprite = getattr(importlib.import_module(name), name.capitalize())
+            sprite = getattr(importlib.import_module(name), name)
             for _ in range(count):
                 self.add_sprite(sprite())
-
+            self._event_handler.load_listeners(self)
 
     def update(self):
         pass
@@ -61,10 +67,16 @@ class Scene(Surface):
     def dispatch(self, event: PyScratchEvent):
         for sprite in self._figures:
             if event._general:
-                _log.info(f"Dispatching event '{event._name}' with {event._kwargs} to '{sprite._name}' as general")
-                threading.Thread(target=getattr(sprite, event._general), args=(event,), daemon=True).start()
+                _log.debug(
+                    f"Dispatching event '{event._name}' with {event._kwargs} to '{sprite._name}' as general"
+                )
+                threading.Thread(
+                    target=getattr(sprite, event._general), args=(event,), daemon=True
+                ).start()
             if f := getattr(sprite, event._name, None):
-                _log.info(f"Dispatching event '{event._name}' with {event._kwargs} to '{sprite._name}'")
+                _log.debug(
+                    f"Dispatching event '{event._name}' with {event._kwargs} to '{sprite._name}'"
+                )
                 threading.Thread(target=f, args=(event,), daemon=True).start()
 
     def render(self):
@@ -73,7 +85,7 @@ class Scene(Surface):
             self._figures.draw(self, self._bg)
         else:
             self._figures.draw(self)
-    
+
     def random_pos(self) -> Vector2:
         w_h, h_h = self._size.x // 2, self._size.y // 2
         return Vector2(randint(-w_h, w_h), randint(-h_h, h_h))
@@ -81,17 +93,17 @@ class Scene(Surface):
     @property
     def name(self) -> str:
         return self._name
-    
+
     @property
     def app(self) -> App:
         return self._app
-    
+
     @app.setter
     def app(self, app):
         self._app = app
         for sprite in self._figures:
             sprite._app = app
-    
+
     @property
     def rect(self) -> Rect:
         return self.get_rect()
